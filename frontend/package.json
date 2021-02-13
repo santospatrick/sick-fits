@@ -63,7 +63,22 @@
   "eslintConfig": {
     "extends": [
       "wesbos"
-    ]
+    ],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": [
+            "."
+          ],
+          "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx"
+          ]
+        }
+      }
+    }
   },
   "jest": {
     "setupFilesAfterEnv": [

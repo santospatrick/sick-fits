@@ -1,7 +1,8 @@
 import React from 'react';
+import Page from 'components/Page';
 
 function index() {
-  return <div>page</div>;
+  return <Page>page</Page>;
 }
 
 export default index;
