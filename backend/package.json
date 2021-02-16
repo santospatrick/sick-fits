@@ -11,7 +11,11 @@
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
     "rules": {
-      "@typescript-eslint/no-unsafe-assignment": 0
+      "@typescript-eslint/no-unsafe-assignment": 0,
+      "indent": "off",
+      "@typescript-eslint/indent": [
+        "off"
+      ]
     }
   },
   "babel": {
